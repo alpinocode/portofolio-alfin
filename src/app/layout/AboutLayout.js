@@ -75,9 +75,23 @@ export default function AboutLayout() {
               berdampak, dan bernilai bagi banyak orang.
             </h2>
             <div className="flex flex-row gap-4">
-              <Icon src={"/github.png"} alt={"Github"} />
-              <Icon src={"/linkedin.png"} alt={"Linkedin"} />
-              <Icon src={"/email.png"} alt={"Email"} />
+              <Icon
+                src={"/github.png"}
+                alt={"Github"}
+                toLink={"https://github.com/alpinocode"}
+              />
+              <Icon
+                src={"/linkedin.png"}
+                alt={"Linkedin"}
+                toLink={"https://www.linkedin.com/in/alfinohasan629/"}
+              />
+              <Icon
+                src={"/email.png"}
+                alt={"Email"}
+                toLink={
+                  "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBpDrvwgWdgGVZxDjNhdsrnPNVKkrVKsvBSsmXwXqPqzGkmtKPrXvxFjnvCDfwGtQgKkVrP"
+                }
+              />
             </div>
           </div>
         </div>
